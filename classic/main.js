@@ -1,4 +1,5 @@
-let table = new DataTable('#my-table', {
+// Render the datatable
+$('#my-table').DataTable({
     data: DataSource.getData(),
     columns: [
         { title: "Name", data: "name" },
